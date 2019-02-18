@@ -1,6 +1,7 @@
 close all;clear;clc;
 
 inputImagePath = 'inputImgs/tree2.png';
+% inputImagePath = 'data/gugong.bmp';
 I = imread(inputImagePath);
 r = 15;
 beta = 1.0;
